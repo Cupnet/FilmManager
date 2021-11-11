@@ -6,6 +6,7 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 
 import it.apuliadigitalmaker.studenti.filmmanager.mongodb.model.Category;
 
+
 public interface CategoryRepository extends MongoRepository<Category, Long> {
 	
 	public List<Category> findByName(String name);

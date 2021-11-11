@@ -6,7 +6,7 @@ import it.apuliadigitalmaker.studenti.filmmanager.mongodb.responseDto.CategoryRe
 import java.util.List;
 import java.util.stream.Collectors;
 
-import org.springframework.context.annotation.Scope;
+//import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 import it.apuliadigitalmaker.studenti.filmmanager.mongodb.model.Category;
